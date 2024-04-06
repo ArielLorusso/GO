@@ -48,6 +48,12 @@ compilation terminated.
 ```
 
 
+# DOCS
+https://go.dev/doc/effective_go     Intoduction
+https://go.dev/doc/faq              FAQ
+https://pkg.go.dev/std              Standard library
+https://pkg.go.dev/fmt@go1.22.2                 std::format
+https://pkg.go.dev/github.com/gin-gonic/gin     Gin Web framework
 # TUTORIAL LIST
 
 1) Derek_Banas         Golang Tutorial     3:49:14     https://www.youtube.com/watch?v=YzLrWHZa-Kc
