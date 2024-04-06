@@ -3,8 +3,8 @@
 package main
 
 import ("fmt" 	 // format  (Print)
-"reflect"
-"strconv"
+	"reflect"
+	"strconv"
 )
 var pl = fmt.Println // macro
 
@@ -20,7 +20,7 @@ func main () {
 	pl(cV4," -> ",reflect.TypeOf(cV4)) 
 	cV5, _ := strconv.ParseFloat(cV3,64)	// string cast to float
 	pl(cV5," -> ",reflect.TypeOf(cV5)) 
-	
+
 	cV6 := fmt.Sprintf("%f %d",3.14,10)	    // format  float & int to String
 	pl(cV6," -> ",reflect.TypeOf(cV6)) 
 }
