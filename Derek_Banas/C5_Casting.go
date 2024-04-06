@@ -11,13 +11,16 @@ var pl = fmt.Println // macro
 
 func main () {
 	cV1 := 1.5							// float
-	cV2 := int(cV1)
-	pl (cV2," -> ",reflect.TypeOf(cV2))	// float cast to string
+	cV2 := int(cV1)							// float cast to string
+	pl (cV2," -> ",reflect.TypeOf(cV2))	
 	
 	cV3 := "50000000"					// string
 	cV4, err := strconv.Atoi (cV3)
-	pl(cV4, err," -> ",reflect.TypeOf(cV4)) // string cast to int
-	var cV5 = 0.0
-	cV5, err = strconv.ParseFloat(cV3)
-	pl(cV5, err," -> ",reflect.TypeOf(cV5)) // string cast to int
+	pl("err is -> ",reflect.TypeOf(err)) 	// interface {Error() string}   : <nil>
+	pl(cV4," -> ",reflect.TypeOf(cV4)) 
+	cV5, _ := strconv.ParseFloat(cV3,64)	// string cast to float
+	pl(cV5," -> ",reflect.TypeOf(cV5)) 
+	
+	cV6 := fmt.Sprintf("%f %d",3.14,10)	    // format  float & int to String
+	pl(cV6," -> ",reflect.TypeOf(cV6)) 
 }
