@@ -49,11 +49,23 @@ compilation terminated.
 
 
 # DOCS
-https://go.dev/doc/effective_go     Intoduction
-https://go.dev/doc/faq              FAQ
-https://pkg.go.dev/std              Standard library
-https://pkg.go.dev/fmt@go1.22.2                 std::format
-https://pkg.go.dev/github.com/gin-gonic/gin     Gin Web framework
+    https://go.dev/doc/effective_go     Intoduction (Indexed topics)
+    https://gobyexample.com/            EXAMPLES    (extensive) Closures Recursion JSON  XML Time  Epoch  etc... 
+    https://go.dev/tour/basics/1        INTERACTIVE (playground-like tutorial)
+            Packages, variables, and functions.         Flow control
+            More types: structs, slices, and maps.      Concurrency
+            Methods and interfaces                      Generics
+  
+
+    https://go.dev/doc/faq              FAQ
+
+    https://pkg.go.dev/std              Standard library
+    https://devdocs.io/go/
+    https://pkg.go.dev/fmt@go1.22.2     format
+    https://pkg.go.dev/math@go1.22.2    math,   os,  etc...
+    
+    https://pkg.go.dev/github.com/gin-gonic/gin     Gin Web framework
+
 # TUTORIAL LIST
 
 1) Derek_Banas         Golang Tutorial     3:49:14     https://www.youtube.com/watch?v=YzLrWHZa-Kc
